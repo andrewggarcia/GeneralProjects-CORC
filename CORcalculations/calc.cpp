@@ -12,7 +12,17 @@ int WINAPI winpain(_In_ HINSTANCE hInstance,
     _In_ LPSTR     lpCmdLine,
     _In_ int       nCmdShow)
 {
+    
+}
 
+LRESULT CALLBACK WndProc(
+    _In_ HWND   hWnd,
+    _In_ UINT   message,
+    _In_ WPARAM wParam,
+    _In_ LPARAM lParam
+)
+{
+     
 }
 
 int main(int argc, char** argv)

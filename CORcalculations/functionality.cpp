@@ -43,7 +43,11 @@ void menue()//Todo:look up how to add icons and interacitable grapics to this pr
 void output(ofstream fout, vector<item> things, double finalprice) //go over csv output or check to outputing to a .txt and then outputting that to an excell
 {
     string filename;
-    cout << "Pleses assign a file name:  ";
+    cout << "Pleses assign a file name:  "; //I'm not sure what the output 
+    //should be because this is suppose to output to a program made window, 
+    //todo look up how to do this because there needs to be some sort of output
+
+    //it might be a _T to output 
     cin >> filename;
     cout << endl;
     filename = filename + ".csv";
